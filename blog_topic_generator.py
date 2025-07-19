@@ -44,24 +44,17 @@ class BlogTopicGenerator:
         try:
             tweet_content = self.prepare_tweet_content(tweets)
             
-            prompt = f"""I've been curating content by liking tweets that interest me. Based on these liked tweets, I'd like you to suggest potential blog post ideas that reflect my interests and the themes I'm drawn to.
-
-Here are some of my recently liked tweets:
-
-{tweet_content}
-
-Please analyze these tweets and suggest 10-15 blog post ideas that:
-1. Reflect the themes and topics I seem interested in
-2. Could be written from my perspective based on what I'm engaging with
-3. Range from personal reflections to more analytical pieces
-4. Are open-ended enough to allow for creative exploration
-
-Don't worry about being too specific or following rigid categories - I like writing about a variety of topics. Just capture the essence of what seems to interest me based on this content.
-
-Please format your response as a numbered list of blog post titles/ideas."""
+            # Load prompt template from file
+            try:
+                with open('blog_prompt.txt', 'r', encoding='utf-8') as f:
+                    prompt_template = f.read()
+                prompt = prompt_template.format(tweet_content=tweet_content)
+            except FileNotFoundError:
+                print("Warning: blog_prompt.txt not found. Using default prompt.")
+                prompt = f"Based on these tweets, suggest 3-5 blog post ideas:\n\n{tweet_content}"
 
             message = self.client.messages.create(
-                model="claude-3-haiku-20240307",
+                model="claude-3-7-sonnet-20250219",
                 max_tokens=800,
                 temperature=0.8,
                 messages=[{"role": "user", "content": prompt}]

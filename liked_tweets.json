@@ -1,7 +1,18 @@
 [
   {
     "created_at": "2025-07-19T15:04:19.000Z",
+    "public_metrics": {
+      "retweet_count": 2833,
+      "reply_count": 148,
+      "like_count": 33503,
+      "quote_count": 124,
+      "bookmark_count": 9344,
+      "impression_count": 1099643
+    },
     "id": "1946586908517175502",
+    "edit_history_tweet_ids": [
+      "1946586908517175502"
+    ],
     "entities": {
       "annotations": [
         {
@@ -22,19 +33,6 @@
           "media_key": "3_1946586902254989312"
         }
       ]
-    },
-    "edit_history_tweet_ids": [
-      "1946586908517175502"
-    ],
-    "text": "When a YouTube commenter comes out of nowhere and absolutely nails it https://t.co/TvSpXXNYk6",
-    "author_id": "240049622",
-    "public_metrics": {
-      "retweet_count": 2724,
-      "reply_count": 145,
-      "like_count": 31989,
-      "quote_count": 121,
-      "bookmark_count": 8925,
-      "impression_count": 1041058
     },
     "context_annotations": [
       {
@@ -93,11 +91,13 @@
         }
       }
     ],
+    "author_id": "240049622",
+    "text": "When a YouTube commenter comes out of nowhere and absolutely nails it https://t.co/TvSpXXNYk6",
     "author": {
-      "verified": false,
-      "id": "240049622",
       "name": "David Perell",
-      "username": "david_perell"
+      "username": "david_perell",
+      "verified": false,
+      "id": "240049622"
     }
   }
 ]

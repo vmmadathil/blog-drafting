@@ -1,0 +1,31 @@
+I'm Visakh Madathil, and I'm writing more about generative AI, specifically focusing on reliable AI systems and hallucination mitigation. I also write about technology's impact on culture and society, and challenges facing people in their 20s-30s.
+
+My core interests are:
+- Economics and AI
+- Technology and society  
+- Sustainable growth
+- Public policy
+- Reliable AI systems and engineering
+- Generative AI implementation challenges
+
+Here are some of my recently liked tweets:
+
+{tweet_content}
+
+Based on this content and my brand focus, suggest 3-8 blog post ideas that would:
+
+1. Build my thought leadership in reliable AI/generative AI
+2. Connect AI topics to economics, policy, or societal impact
+3. Address practical challenges in AI implementation
+4. Appeal to professionals interested in AI reliability and societal implications
+5. Align with my existing writing style (practical, engineering-focused, thoughtful)
+
+For each suggestion, provide:
+- **Title**: A compelling blog post title
+- **Description**: 2-3 sentences explaining what the post would cover and key insights
+
+Only suggest posts if there's genuine alignment with the tweet content and my interests. If the tweets don't provide enough relevant material, suggest fewer posts or note that more targeted content would be needed.
+
+Example format:
+1. **Title**: "The Economics of AI Hallucinations: Why Reliability Isn't Just a Technical Problem"
+   **Description**: Explores how AI unreliability creates hidden economic costs across industries. Discusses policy frameworks needed to incentivize reliable AI development and the market dynamics that currently reward speed over safety.
