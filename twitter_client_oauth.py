@@ -203,6 +203,7 @@ class TwitterClientOAuth:
             print(f"Error fetching liked tweets: {e}")
             return []
     
+    
     def save_tweets_to_file(self, tweets: List[Dict], filename: str = "liked_tweets.json"):
         """Save tweets to a JSON file"""
         with open(filename, 'w', encoding='utf-8') as f:
@@ -227,7 +228,7 @@ def main():
             print(f"✅ User ID: {user_id}")
             print("Fetching liked tweets with OAuth 1.0a...")
             
-            tweets = client.get_liked_tweets(user_id, max_results=5, days_back=7)
+            tweets = client.get_liked_tweets(user_id, max_results=10, days_back=7)
             
             if tweets:
                 print(f"✅ Successfully fetched {len(tweets)} liked tweets!")

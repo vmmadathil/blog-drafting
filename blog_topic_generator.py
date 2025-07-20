@@ -19,19 +19,22 @@ class BlogTopicGenerator:
             self.client = anthropic.Anthropic(api_key=self.anthropic_api_key)
     
     def prepare_tweet_content(self, tweets: List[Dict], max_tweets: int = 20) -> str:
-        """Prepare tweet content for analysis"""
+        """Prepare simplified tweet content for analysis - text only"""
         tweet_texts = []
         
         for tweet in tweets[:max_tweets]:
-            author = tweet.get('author', {}).get('username', 'unknown')
             text = tweet.get('text', '').strip()
-            
-            # Clean up text (remove excessive whitespace, URLs for readability)
+            if not text:
+                continue
+                
+            # Clean up text (remove URLs, excessive whitespace)
             import re
-            text = re.sub(r'https?://\S+', '[URL]', text)
-            text = re.sub(r'\s+', ' ', text)
+            text = re.sub(r'https?://\S+', '', text)  # Remove URLs entirely
+            text = re.sub(r'\s+', ' ', text)          # Normalize whitespace
+            text = text.strip()
             
-            tweet_texts.append(f"@{author}: {text}")
+            if text:  # Only add non-empty tweets
+                tweet_texts.append(text)
         
         return '\n\n'.join(tweet_texts)
     
@@ -43,37 +46,47 @@ class BlogTopicGenerator:
         
         try:
             tweet_content = self.prepare_tweet_content(tweets)
+            print(f"Prepared {len(tweet_content)} characters of tweet content")
             
             # Load prompt template from file
             try:
                 with open('blog_prompt.txt', 'r', encoding='utf-8') as f:
                     prompt_template = f.read()
                 prompt = prompt_template.format(tweet_content=tweet_content)
+                print("✅ Prompt template loaded and formatted successfully")
             except FileNotFoundError:
                 print("Warning: blog_prompt.txt not found. Using default prompt.")
                 prompt = f"Based on these tweets, suggest 3-5 blog post ideas:\n\n{tweet_content}"
+            except Exception as e:
+                print(f"Error formatting prompt: {e}")
+                return []
 
+            print("🤖 Calling Anthropic API...")
             message = self.client.messages.create(
                 model="claude-3-7-sonnet-20250219",
-                max_tokens=800,
+                max_tokens=1500,
                 temperature=0.8,
                 messages=[{"role": "user", "content": prompt}]
             )
+            print("✅ API call successful")
             
             response_text = message.content[0].text.strip()
             
-            # Extract topics from numbered list
-            import re
-            topics = re.findall(r'^\d+\.?\s*(.+)$', response_text, re.MULTILINE)
+            # Save response to text file
+            with open('blog_topics.txt', 'w', encoding='utf-8') as f:
+                f.write("BLOG TOPIC SUGGESTIONS\n")
+                f.write("=" * 50 + "\n\n")
+                f.write(response_text)
             
-            if not topics:
-                # Fallback: split by lines and clean
-                topics = [line.strip() for line in response_text.split('\n') if line.strip()]
+            print("✅ Blog topics saved to blog_topics.txt")
             
-            return [topic.strip() for topic in topics if topic.strip()]
+            # Return empty list since we're not parsing JSON anymore
+            return []
             
         except Exception as e:
             print(f"Error generating AI topics: {e}")
+            import traceback
+            traceback.print_exc()
             return []
     
     def generate_simple_summary(self, tweets: List[Dict]) -> Dict:
@@ -100,7 +113,7 @@ class BlogTopicGenerator:
             with open(tweets_file, 'r', encoding='utf-8') as f:
                 tweets = json.load(f)
         except FileNotFoundError:
-            print(f"Tweets file {tweets_file} not found. Please run twitter_client.py first.")
+            print(f"Tweets file {tweets_file} not found. Please run twitter_client_oauth.py first.")
             return {}
         
         if not tweets:
@@ -123,14 +136,14 @@ class BlogTopicGenerator:
         
         return results
     
-    def save_results(self, results: Dict, filename: str = "blog_topics.json"):
-        """Save results to file"""
+    def save_results(self, results: Dict, filename: str = "blog_topics_summary.json"):
+        """Save summary to file (topics are now in txt file)"""
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
-        print(f"Results saved to {filename}")
+        print(f"Summary saved to {filename}")
     
     def print_summary(self, results: Dict):
-        """Print a summary of generated topics"""
+        """Print a summary of the analysis"""
         if not results:
             return
         
@@ -149,13 +162,25 @@ class BlogTopicGenerator:
             print(f"- Including content from: {', '.join(sample_authors[:5])}" + 
                   (f" and {len(sample_authors)-5} others" if len(sample_authors) > 5 else ""))
         
-        topics = results.get('blog_topics', [])
-        if topics:
-            print(f"\n💡 Blog Post Ideas ({len(topics)}):")
-            for i, topic in enumerate(topics, 1):
-                print(f"{i:2d}. {topic}")
-        else:
-            print("\nNo topics generated. Check your API configuration.")
+        print(f"\n💡 Blog topics saved to blog_topics.txt")
+        print("📁 Open blog_topics.txt to see the detailed suggestions with titles, descriptions, and outlines.")
+        
+        # Also display the topics content here
+        try:
+            with open('blog_topics.txt', 'r', encoding='utf-8') as f:
+                content = f.read()
+                # Skip the header and show the actual topics
+                if "=" * 50 in content:
+                    topics_content = content.split("=" * 50 + "\n\n", 1)[1]
+                else:
+                    topics_content = content
+                
+                print("\n" + "="*60)
+                print("BLOG TOPIC SUGGESTIONS")
+                print("="*60)
+                print(topics_content)
+        except Exception as e:
+            print(f"Could not display topics: {e}")
 
 
 def main():

@@ -1,60 +1,157 @@
 [
   {
-    "created_at": "2025-07-19T15:04:19.000Z",
-    "public_metrics": {
-      "retweet_count": 2833,
-      "reply_count": 148,
-      "like_count": 33503,
-      "quote_count": 124,
-      "bookmark_count": 9344,
-      "impression_count": 1099643
-    },
-    "id": "1946586908517175502",
-    "edit_history_tweet_ids": [
-      "1946586908517175502"
-    ],
     "entities": {
       "annotations": [
         {
-          "start": 7,
-          "end": 13,
-          "probability": 0.982,
-          "type": "Other",
-          "normalized_text": "YouTube"
-        }
-      ],
-      "urls": [
-        {
-          "start": 70,
+          "start": 92,
           "end": 93,
-          "url": "https://t.co/TvSpXXNYk6",
-          "expanded_url": "https://x.com/david_perell/status/1946586908517175502/photo/1",
-          "display_url": "pic.x.com/TvSpXXNYk6",
-          "media_key": "3_1946586902254989312"
+          "probability": 0.561,
+          "type": "Organization",
+          "normalized_text": "AI"
+        },
+        {
+          "start": 156,
+          "end": 157,
+          "probability": 0.7767,
+          "type": "Organization",
+          "normalized_text": "AI"
         }
       ]
     },
     "context_annotations": [
       {
         "domain": {
-          "id": "131",
-          "name": "Unified Twitter Taxonomy",
-          "description": "A taxonomy of user interests. "
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
         },
         "entity": {
-          "id": "1196446161223028736",
-          "name": "Social media"
+          "id": "781974596752842752",
+          "name": "Services"
         }
       },
       {
         "domain": {
-          "id": "165",
-          "name": "Technology",
-          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+          "id": "48",
+          "name": "Product",
+          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
         },
         "entity": {
-          "id": "1196446161223028736",
-          "name": "Social media"
+          "id": "1412579054855671809",
+          "name": "Google Innovation"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1926361983957262539"
+    ],
+    "author_id": "11768582",
+    "text": "Something absolutely everyone should be doing right now, to get ahead of the coming wave of AI change: \n\nIdentify toilsome tasks in your work and life that AI could handle, freeing you up for higher-value activities.\n\nThere is massive alpha in being the 1st expert in your field.",
+    "id": "1926361983957262539",
+    "created_at": "2025-05-24T19:37:41.000Z",
+    "public_metrics": {
+      "retweet_count": 428,
+      "reply_count": 167,
+      "like_count": 5618,
+      "quote_count": 69,
+      "bookmark_count": 3085,
+      "impression_count": 655380
+    },
+    "author": {
+      "id": "11768582",
+      "name": "Garry Tan",
+      "username": "garrytan",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 38,
+          "end": 39,
+          "probability": 0.7323,
+          "type": "Organization",
+          "normalized_text": "AI"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1927409635901710809"
+    ],
+    "author_id": "17203692",
+    "text": "Experimentation mindset is the key to AI success, not having all the answers.\n\nDefine metrics that matter, prioritize experiments, and redefine success as learning. Knowledge sharing is crucial.\n\nRemove barriers to learning, not just run more experiments. Build team capability",
+    "id": "1927409635901710809",
+    "created_at": "2025-05-27T17:00:41.000Z",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 5,
+      "like_count": 93,
+      "quote_count": 1,
+      "bookmark_count": 42,
+      "impression_count": 7898
+    },
+    "author": {
+      "id": "17203692",
+      "name": "jason liu",
+      "username": "jxnlco",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "probability": 0.9839,
+          "type": "Person",
+          "normalized_text": "Ezra Klein"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "probability": 0.7348,
+          "type": "Organization",
+          "normalized_text": "AI"
+        }
+      ],
+      "urls": [
+        {
+          "start": 104,
+          "end": 127,
+          "url": "https://t.co/QaQ0CjT8h3",
+          "expanded_url": "https://x.com/david_perell/status/1927526974844801499/video/1",
+          "display_url": "pic.x.com/QaQ0CjT8h3",
+          "media_key": "13_1927526746229764096"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "10",
+          "name": "Person",
+          "description": "Named people in the world like Nelson Mandela"
+        },
+        "entity": {
+          "id": "1053696074089562113",
+          "name": "Ezra Klein",
+          "description": "Ezra Klein"
         }
       },
       {
@@ -70,13 +167,25 @@
       },
       {
         "domain": {
-          "id": "47",
-          "name": "Brand",
-          "description": "Brands and Companies"
+          "id": "48",
+          "name": "Product",
+          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
         },
         "entity": {
-          "id": "10029382357",
-          "name": "YouTube"
+          "id": "1412579054855671809",
+          "name": "Google Innovation"
+        }
+      },
+      {
+        "domain": {
+          "id": "94",
+          "name": "Journalist",
+          "description": "A journalist like 'Anderson Cooper'"
+        },
+        "entity": {
+          "id": "1053696074089562113",
+          "name": "Ezra Klein",
+          "description": "Ezra Klein"
         }
       },
       {
@@ -86,18 +195,972 @@
           "description": "A taxonomy of user interests. "
         },
         "entity": {
-          "id": "10029382357",
-          "name": "YouTube"
+          "id": "1046545033657081857",
+          "name": "News",
+          "description": "News"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1053696074089562113",
+          "name": "Ezra Klein",
+          "description": "Ezra Klein"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1074755369530880001",
+          "name": "Journalists",
+          "description": "Journalism"
         }
       }
     ],
+    "edit_history_tweet_ids": [
+      "1927526974844801499"
+    ],
     "author_id": "240049622",
-    "text": "When a YouTube commenter comes out of nowhere and absolutely nails it https://t.co/TvSpXXNYk6",
+    "text": "Ezra Klein: Writers who outsource their research to AI operate on a flawed model of how the mind works. https://t.co/QaQ0CjT8h3",
+    "id": "1927526974844801499",
+    "created_at": "2025-05-28T00:46:57.000Z",
+    "public_metrics": {
+      "retweet_count": 455,
+      "reply_count": 85,
+      "like_count": 2600,
+      "quote_count": 227,
+      "bookmark_count": 1600,
+      "impression_count": 1334568
+    },
     "author": {
+      "id": "240049622",
       "name": "David Perell",
       "username": "david_perell",
-      "verified": false,
-      "id": "240049622"
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.5992,
+          "type": "Other",
+          "normalized_text": "latency"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 247,
+          "end": 258,
+          "username": "AarushSah_",
+          "id": "1566835226654822401"
+        }
+      ]
+    },
+    "edit_history_tweet_ids": [
+      "1929956546772975623"
+    ],
+    "author_id": "17203692",
+    "text": "latency is a silent killer of ai products. \n\nusers abandon even the most accurate systems when forced to wait.\n\nsometimes the real competitive edge is in making your ai fast enough that people actually use it.\n\nIf you want to learn more check out @AarushSah_'s talk w/ us tmr at",
+    "id": "1929956546772975623",
+    "created_at": "2025-06-03T17:41:12.000Z",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 4,
+      "like_count": 66,
+      "quote_count": 3,
+      "bookmark_count": 35,
+      "impression_count": 9573
+    },
+    "author": {
+      "id": "17203692",
+      "name": "jason liu",
+      "username": "jxnlco",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 118,
+          "end": 120,
+          "probability": 0.6107,
+          "type": "Other",
+          "normalized_text": "GAN"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 15,
+          "end": 23,
+          "username": "balajis",
+          "id": "2178012643"
+        }
+      ],
+      "urls": [
+        {
+          "start": 273,
+          "end": 296,
+          "url": "https://t.co/GiidyQl3Bd",
+          "expanded_url": "https://twitter.com/balajis/status/1930156049065246851",
+          "display_url": "x.com/balajis/status…"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "898673391980261376",
+          "name": "Web development",
+          "description": "Web Development"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848921413196984320",
+          "name": "Computer programming",
+          "description": "Computer programming"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "898673391980261376",
+          "name": "Web development",
+          "description": "Web Development"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1930305209747812559"
+    ],
+    "author_id": "33836629",
+    "text": "Good post from @balajis on the \"verification gap\". \n\nYou could see it as there being two modes in creation. Borrowing GAN terminology:\n1) generation and\n2) discrimination.\ne.g. painting - you make a brush stroke (1) and then you look for a while to see if you improved the https://t.co/GiidyQl3Bd",
+    "id": "1930305209747812559",
+    "created_at": "2025-06-04T16:46:39.000Z",
+    "public_metrics": {
+      "retweet_count": 481,
+      "reply_count": 119,
+      "like_count": 4109,
+      "quote_count": 81,
+      "bookmark_count": 3156,
+      "impression_count": 501588
+    },
+    "author": {
+      "id": "33836629",
+      "name": "Andrej Karpathy",
+      "username": "karpathy",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "probability": 0.5411,
+          "type": "Other",
+          "normalized_text": "RAG"
+        }
+      ]
+    },
+    "edit_history_tweet_ids": [
+      "1930323865437102420"
+    ],
+    "author_id": "17203692",
+    "text": "In RAG systems, like in life, how you measure anything is how you improve everything.\n\nBe the person who measures recall before generation Not the person who tweaks prompts endlessly\n\nBe the person who generates synthetic data first \nNot the person who waits for production",
+    "id": "1930323865437102420",
+    "created_at": "2025-06-04T18:00:47.000Z",
+    "public_metrics": {
+      "retweet_count": 9,
+      "reply_count": 4,
+      "like_count": 100,
+      "quote_count": 0,
+      "bookmark_count": 73,
+      "impression_count": 6896
+    },
+    "author": {
+      "id": "17203692",
+      "name": "jason liu",
+      "username": "jxnlco",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 108,
+          "end": 113,
+          "probability": 0.4172,
+          "type": "Other",
+          "normalized_text": "aarush"
+        },
+        {
+          "start": 120,
+          "end": 123,
+          "probability": 0.3918,
+          "type": "Other",
+          "normalized_text": "grok"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "1721576765879980032",
+          "name": "Grok Ai"
+        }
+      },
+      {
+        "domain": {
+          "id": "48",
+          "name": "Product",
+          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+        },
+        "entity": {
+          "id": "1721576765879980032",
+          "name": "Grok Ai"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1930730197126373767"
+    ],
+    "author_id": "17203692",
+    "text": "why your ai agents are too damn slow, and what to do about it\n\njust wrapped a fascinating conversation with aarush from grok about agent latency. the key insight: latency doesn't just add up, it multiplies with complexity.\n\na travel planning agent with 9 steps might take 11",
+    "id": "1930730197126373767",
+    "created_at": "2025-06-05T20:55:24.000Z",
+    "public_metrics": {
+      "retweet_count": 13,
+      "reply_count": 9,
+      "like_count": 196,
+      "quote_count": 0,
+      "bookmark_count": 239,
+      "impression_count": 17084
+    },
+    "author": {
+      "id": "17203692",
+      "name": "jason liu",
+      "username": "jxnlco",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 6,
+          "end": 11,
+          "probability": 0.7047,
+          "type": "Other",
+          "normalized_text": "Claude"
+        },
+        {
+          "start": 21,
+          "end": 23,
+          "probability": 0.7982,
+          "type": "Other",
+          "normalized_text": "MCP"
+        },
+        {
+          "start": 53,
+          "end": 58,
+          "probability": 0.988,
+          "type": "Product",
+          "normalized_text": "iPhone"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "10026364281",
+          "name": "Apple"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "10026364281",
+          "name": "Apple"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1303989823011606528",
+          "name": "Tech events"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1436053202835689485",
+          "name": "Events"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "10026364281",
+          "name": "Apple"
+        }
+      },
+      {
+        "domain": {
+          "id": "48",
+          "name": "Product",
+          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+        },
+        "entity": {
+          "id": "10024011738",
+          "name": "Apple - iPhone"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "848920700073123840",
+          "name": "Cell Phones",
+          "description": "Cell phones"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "848985956778561538",
+          "name": "Mobile",
+          "description": "Mobile"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1932431818143457624"
+    ],
+    "author_id": "14642331",
+    "text": "Using Claude without MCP is like It's like buying an iPhone and only using it to make calls.\n\nWhy would you limit yourself like that?\n\nIt takes 10 mins to spin up and you'll outperform 99.999% of human beings on the planet.",
+    "id": "1932431818143457624",
+    "created_at": "2025-06-10T13:37:02.000Z",
+    "public_metrics": {
+      "retweet_count": 281,
+      "reply_count": 112,
+      "like_count": 4988,
+      "quote_count": 17,
+      "bookmark_count": 9010,
+      "impression_count": 818853
+    },
+    "author": {
+      "id": "14642331",
+      "name": "GREG ISENBERG",
+      "username": "gregisenberg",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 42,
+          "end": 43,
+          "probability": 0.5243,
+          "type": "Other",
+          "normalized_text": "V1"
+        },
+        {
+          "start": 134,
+          "end": 136,
+          "probability": 0.6302,
+          "type": "Other",
+          "normalized_text": "RAG"
+        }
+      ],
+      "urls": [
+        {
+          "start": 272,
+          "end": 295,
+          "url": "https://t.co/EyuHWmXNkm",
+          "expanded_url": "https://twitter.com/AnthropicAI/status/1933630785879507286",
+          "display_url": "x.com/AnthropicAI/st…"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1242909627395665920",
+          "name": "Blogging"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1278000653416099840",
+          "name": "Writing"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1933743450215886916"
+    ],
+    "author_id": "1598958126392381442",
+    "text": "Multi-agent search was easy to prototype (V1 only took me a day) but incredibly complex to bring to production. \n\nFeels like building RAG in 2022: we see the promise but are still figuring out the primitives. \n\nSharing our journey so far - hope it helps your exploration! https://t.co/EyuHWmXNkm",
+    "id": "1933743450215886916",
+    "created_at": "2025-06-14T04:29:00.000Z",
+    "public_metrics": {
+      "retweet_count": 29,
+      "reply_count": 18,
+      "like_count": 543,
+      "quote_count": 2,
+      "bookmark_count": 316,
+      "impression_count": 64488
+    },
+    "author": {
+      "id": "1598958126392381442",
+      "name": "Barry Zhang",
+      "username": "barry_zyj",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 24,
+          "end": 25,
+          "probability": 0.4774,
+          "type": "Other",
+          "normalized_text": "CC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/swYMgvLigy",
+          "expanded_url": "https://twitter.com/Hesamation/status/1946247982833082623",
+          "display_url": "x.com/Hesamation/sta…"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697289971322880",
+          "name": "Sports & Fitness Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to sports nutrition, athletic apparel, sports apps, fitness venues"
+        }
+      },
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "848921413196984320",
+          "name": "Computer programming",
+          "description": "Computer programming"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "898673391980261376",
+          "name": "Web development",
+          "description": "Web Development"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "1277995430236680192",
+          "name": "Outdoors"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848921413196984320",
+          "name": "Computer programming",
+          "description": "Computer programming"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "898673391980261376",
+          "name": "Web development",
+          "description": "Web Development"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1260627614957318145",
+          "name": "Windsurfing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1838998617064878080",
+          "name": "developers"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1946402391844434160"
+    ],
+    "author_id": "11518572",
+    "text": "I feel this\n\nWhen I use CC, I fall into acting like a PM, but I am regularly stepping in like \"no, when you use that library you need to use function X, not function Y\"\n\nBut then I am not learning new things, Im relying on the knowledge I already have\n\nHow do I learn new things? https://t.co/swYMgvLigy",
+    "id": "1946402391844434160",
+    "created_at": "2025-07-19T02:51:07.000Z",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 6,
+      "like_count": 35,
+      "quote_count": 0,
+      "bookmark_count": 18,
+      "impression_count": 5524
+    },
+    "author": {
+      "id": "11518572",
+      "name": "Chris Albon",
+      "username": "chrisalbon",
+      "verified": false
+    }
+  },
+  {
+    "edit_history_tweet_ids": [
+      "1946550172361601184",
+      "1946551358309478555"
+    ],
+    "author_id": "715378234997616640",
+    "text": "A major cheat code in life: Realizing someone has to be the exception. Someone beats the odds. Someone breaks the cycle. Someone builds a life no one saw coming. No rule says it can’t be you.",
+    "id": "1946551358309478555",
+    "created_at": "2025-07-19T12:43:03.000Z",
+    "public_metrics": {
+      "retweet_count": 372,
+      "reply_count": 47,
+      "like_count": 2976,
+      "quote_count": 12,
+      "bookmark_count": 617,
+      "impression_count": 89168
+    },
+    "author": {
+      "id": "715378234997616640",
+      "name": "Blake Burge",
+      "username": "blakeaburge",
+      "verified": false
+    }
+  },
+  {
+    "edit_history_tweet_ids": [
+      "1933264183837282558"
+    ],
+    "author_id": "1326996467450404864",
+    "text": "I see a lot of people make the same mistakes building agents. So we shared a few of the principles we use\n\nhttps://t.co/lRNYmeZCcC",
+    "entities": {
+      "urls": [
+        {
+          "start": 107,
+          "end": 130,
+          "url": "https://t.co/lRNYmeZCcC",
+          "expanded_url": "https://cognition.ai/blog/dont-build-multi-agents",
+          "display_url": "cognition.ai/blog/dont-buil…",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1944847748018098176/2DiJMvH-?format=jpg&name=orig",
+              "width": 1725,
+              "height": 1068
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1944847748018098176/2DiJMvH-?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Cognition | Don’t Build Multi-Agents",
+          "description": "Frameworks for LLM Agents have been surprisingly disappointing. I want to offer some principles for building agents based on our own trial & error, and explain why some tempting ideas are actually quite bad in practice.",
+          "unwound_url": "https://cognition.ai/blog/dont-build-multi-agents"
+        }
+      ]
+    },
+    "id": "1933264183837282558",
+    "created_at": "2025-06-12T20:44:34.000Z",
+    "public_metrics": {
+      "retweet_count": 128,
+      "reply_count": 59,
+      "like_count": 1066,
+      "quote_count": 38,
+      "bookmark_count": 1490,
+      "impression_count": 237008
+    },
+    "author": {
+      "id": "1326996467450404864",
+      "name": "Walden",
+      "username": "walden_yan",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 79,
+          "end": 97,
+          "probability": 0.623,
+          "type": "Other",
+          "normalized_text": "Context Engineering"
+        }
+      ],
+      "urls": [
+        {
+          "start": 278,
+          "end": 301,
+          "url": "https://t.co/7i6NJXeaKI",
+          "expanded_url": "https://twitter.com/walden_yan/status/1933264183837282558",
+          "display_url": "x.com/walden_yan/sta…"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1242909627395665920",
+          "name": "Blogging"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1278000653416099840",
+          "name": "Writing"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1933278290992845201"
+    ],
+    "author_id": "2728439146",
+    "text": "This is really good blog post\n\nLove that it highlights “context engineering”\n\n“Context Engineering\n\nIn 2025, the models out there are extremely intelligent. But even the smartest human won’t be able to do their job effectively without the context of what they’re being asked to https://t.co/7i6NJXeaKI",
+    "id": "1933278290992845201",
+    "created_at": "2025-06-12T21:40:37.000Z",
+    "public_metrics": {
+      "retweet_count": 42,
+      "reply_count": 15,
+      "like_count": 397,
+      "quote_count": 3,
+      "bookmark_count": 452,
+      "impression_count": 51354
+    },
+    "author": {
+      "id": "2728439146",
+      "name": "Harrison Chase",
+      "username": "hwchase17",
+      "verified": false
+    }
+  },
+  {
+    "entities": {
+      "annotations": [
+        {
+          "start": 11,
+          "end": 16,
+          "probability": 0.7157,
+          "type": "Other",
+          "normalized_text": "Cursor"
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "probability": 0.4992,
+          "type": "Organization",
+          "normalized_text": "AI"
+        },
+        {
+          "start": 193,
+          "end": 194,
+          "probability": 0.6515,
+          "type": "Organization",
+          "normalized_text": "AI"
+        }
+      ],
+      "urls": [
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/z0nTUx4WnM",
+          "expanded_url": "https://x.com/rjs/status/1933468609881202860/photo/1",
+          "display_url": "pic.x.com/z0nTUx4WnM",
+          "media_key": "3_1933466271430926336"
+        }
+      ]
+    },
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1462809874195042313",
+          "name": "Computer software"
+        }
+      },
+      {
+        "domain": {
+          "id": "173",
+          "name": "Product Taxonomy",
+          "description": "A product taxonomy for labeling categories of products. "
+        },
+        "entity": {
+          "id": "1462809919204122628",
+          "name": "Multimedia & design software"
+        }
+      }
+    ],
+    "edit_history_tweet_ids": [
+      "1933468172440535485",
+      "1933468424350405062",
+      "1933468510341972420",
+      "1933468609881202860"
+    ],
+    "author_id": "10079052",
+    "text": "Tools like Cursor hint at where AI-driven user interfaces are going. Chat is only 10%. Most of the output (and UI) is a domain-specific representation of the state of the work.\n\nIn the case of AI coding, 90% of what you're looking at and thinking about is the IDE, the diffs, the https://t.co/z0nTUx4WnM",
+    "id": "1933468609881202860",
+    "created_at": "2025-06-13T10:16:53.000Z",
+    "public_metrics": {
+      "retweet_count": 30,
+      "reply_count": 17,
+      "like_count": 560,
+      "quote_count": 8,
+      "bookmark_count": 756,
+      "impression_count": 74988
+    },
+    "author": {
+      "id": "10079052",
+      "name": "Ryan Singer",
+      "username": "rjs",
+      "verified": false
     }
   }
 ]

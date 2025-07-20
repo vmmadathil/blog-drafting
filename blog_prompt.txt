@@ -23,9 +23,18 @@ Based on this content and my brand focus, suggest 3-8 blog post ideas that would
 For each suggestion, provide:
 - **Title**: A compelling blog post title
 - **Description**: 2-3 sentences explaining what the post would cover and key insights
+- **Outline**: A detailed outline with 3-5 main sections/headings that would structure the blog post
 
 Only suggest posts if there's genuine alignment with the tweet content and my interests. If the tweets don't provide enough relevant material, suggest fewer posts or note that more targeted content would be needed.
+
+IMPORTANT: Please try to think of posts that would be unique -- I don't want just another technical blog. What makes me unique is my ability to draw connections to society and really focus on outcomes. I am not an engineer, but rather a social scientist who deeply care about making AI be reliable in the world. That passion and conviction must be conveyed. 
 
 Example format:
 1. **Title**: "The Economics of AI Hallucinations: Why Reliability Isn't Just a Technical Problem"
    **Description**: Explores how AI unreliability creates hidden economic costs across industries. Discusses policy frameworks needed to incentivize reliable AI development and the market dynamics that currently reward speed over safety.
+   **Outline**: 
+   - Introduction: The hidden costs of AI mistakes
+   - Economic impact analysis: Quantifying hallucination costs
+   - Market incentives: Why speed trumps safety
+   - Policy frameworks: Regulatory approaches to reliability
+   - Conclusion: Building sustainable AI economics

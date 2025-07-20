@@ -1,27 +1,17 @@
 {
   "summary": {
-    "total_tweets": 1,
-    "unique_authors": 1,
+    "total_tweets": 7,
+    "unique_authors": 7,
     "sample_authors": [
-      "david_perell"
+      "walden_yan",
+      "hwchase17",
+      "lovable_dev",
+      "rjs",
+      "pejmanjohn",
+      "swyx",
+      "charlesmiller_7"
     ]
   },
-  "blog_topics": [
-    "The Power of Insightful Online Commentary: What We Can Learn from Unexpected Internet Voices",
-    "Cultivating a Curious Mindset: How Seeking Out Diverse Perspectives Can Enrich Our Understanding",
-    "The Art of Concise, Impactful Communication: Lessons from the World of Social Media",
-    "Embracing the Unexpected: Finding Inspiration in Unlikely Places",
-    "The Thrill of the Internet Rabbit Hole: Navigating the Winding Paths of Online Discovery",
-    "Mastering the Art of Curation: How Thoughtful Sharing Can Shape Our Personal Narratives",
-    "The Democratization of Expertise: Rethinking Traditional Notions of Authority in the Digital Age",
-    "Unpacking the Viral Phenomenon: What Makes Some Online Content Resonate so Deeply?",
-    "Navigating the Attention Economy: Strategies for Meaningful Engagement in a Noisy World",
-    "The Beauty of Brevity: Exploring the Power of Concise, Impactful Communication",
-    "Bridging the Online-Offline Divide: Fostering Genuine Connections in a Digital Landscape",
-    "The Evolving Landscape of Influence: Redefining the Role of Creators and Commentators",
-    "Tapping into the Collective Wisdom: Harnessing the Intelligence of Online Communities",
-    "Amplifying Underrepresented Voices: The Transformative Potential of Social Media",
-    "The Art of Curation as Self-Expression: Crafting a Unique Digital Identity through Shared Interests"
-  ],
-  "total_topics": 15
+  "blog_topics": [],
+  "total_topics": 0
 }

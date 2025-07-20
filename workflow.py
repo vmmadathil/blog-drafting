@@ -13,7 +13,7 @@ from blog_topic_generator import BlogTopicGenerator
 
 def main():
     """Main workflow to fetch tweets and generate blog topics"""
-    print("429Blog Topic Generation Workflow")
+    print("Blog Topic Generation Workflow")
     print("=" * 50)
     
     # Check environment variables
@@ -64,7 +64,6 @@ def main():
     
     # Step 2: Generate blog topics
     print(f"\n💡 Step 2: Generating blog topic ideas...")
-    
     results = topic_generator.generate_blog_topics(tweets_file)
     if not results:
         print("❌ Failed to generate blog topics")
@@ -76,7 +75,7 @@ def main():
     
     print(f"\n✅ Workflow completed successfully!")
     print(f"📁 Files created:")
-    print(f"   - {tweets_file} (raw tweet data)")
+    print(f"   - {tweets_file} (liked tweets data)")
     print(f"   - blog_topics.json (generated topics)")
     
     return 0
